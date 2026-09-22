@@ -18,5 +18,9 @@
     <name>enterprise-ecommerce</name>
 
     <description>Production-grade enterprise e-commerce platform</description>
+	
+	<modules>
+		<module>backend</module>
+	</modules>
 
 </project>
