@@ -16,10 +16,10 @@
 
     <artifactId>common-library</artifactId>
 
-    <packaging>jar</packaging>
+	<packaging>jar</packaging>
 
-    <name>common-library</name>
+	<name>common-library</name>
 
-    <description>Shared components for backend services</description>
+	<description>Common Library for backend services</description>
 
 </project>
