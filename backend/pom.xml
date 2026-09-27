@@ -57,5 +57,14 @@
         <module>discovery-server</module>
         <module>api-gateway</module>
     </modules>
+	
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<build.environment>development</build.environment>
+			</properties>
+		</profile>
+	</profiles>
 
 </project>
