@@ -8,19 +8,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mustaque.ecommerce</groupId>
-
     <artifactId>enterprise-ecommerce</artifactId>
-
     <version>1.0.0-SNAPSHOT</version>
-
     <packaging>pom</packaging>
 
     <name>enterprise-ecommerce</name>
-
     <description>Production-grade enterprise e-commerce platform</description>
-	
-	<modules>
-		<module>backend</module>
-	</modules>
+
+    <properties>
+        <!-- Java version used across the project -->
+        <maven.compiler.release>21</maven.compiler.release>
+
+        <!-- Consistent source-file encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>backend</module>
+    </modules>
 
 </project>
